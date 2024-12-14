@@ -1,7 +1,7 @@
 # WinKeyBoard
 Windows下的键盘控制
 
-# 例子
+## 例子
 ``` Python
 # 单击 a
 key = WinKeyBoard.VK.A
@@ -33,3 +33,8 @@ WinKeyBoard.key_controller.PressKey(key)
 WinKeyBoard.wait(200)
 WinKeyBoard.key_controller.ReleaseKey(key)
 ```
+## 安装
+``` Batch
+pip install WinKeyBoard
+```
+
